@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    
+<head>
+    <meta charset="UFT-8">
+      <html = style="background-color:pink;"> 
+    <title>Formulario</title>
+</head>
+<body>
+
+    <center>
+
+    <h1 style="background-color: salmon;color: white;">ATIVIDADE - FORMULÁRIOS</h1>
+    <h3 style="color: deeppink;">PAULA NUNES FRANCO</h3>
+    
+</center>
+
+    <h3 style="background-color:rosybrown;color: white;">PRIMEIRO FORMULÁRIO</h3>
+    <form>
+        <b style="color:red;">FAÇA SEU CADASTRO!</b><br>
+        <br>
+        <b>NOME:</b>
+        <input type="text" name="NOME"><br>
+        <b>SEXO:</b><br>
+        <input type="radio" name="SEXO" value="masc">MASCULINO<br>
+        <input type="radio" name="SEXO" value="fem">FEMININO<br>
+        <b>ESCOLARIDADE</b>
+        <select id="escolha" name="opcao">
+            <option value="opcao1">Grau 1</option>
+            <option value="opcao2">Grau 2</option>
+            <option value="opcao3">Superior</option>
+        </select>
+        <br>
+        <br><input type="submit" value="enviar">
+    </form>
+
+    <h3 style="background-color:rosybrown;color: white;">SEGUNDO FORMULÁRIO</h3>
+    <form>
+
+    </form>
+         <b style="color:red;">FORMA DE PAGAMENTO!</b><br>
+         <br>
+         <b>NUMERO:</b>
+        <input type="text" name="NUMERO"><br>
+        <b>BANDEIRA:</b><br>
+        <input type="radio" name="BANDEIRA" value="elo">
+        <input type="image" src="imagens/elo.png" alt="elo" width="50" height="25"><br>
+        <input type="radio" name="BANDEIRA" value="mastercard">
+        <input type="image" src="imagens/mastercard.png" alt="mastercard" width="50" height="25"><br>
+        <input type="radio" name="BANDEIRA" value="express">
+        <input type="image" src="imagens/express.png" alt="express" width="50" height="25"><br>
+        <input type="radio" name="BANDEIRA" value="visa">
+        <input type="image" src="imagens/visa.png" alt="visa" width="50" height="25">
+        <br><b>VALIDADE</b>
+        <select id="escolha" name="opcao">
+            <option value="opcao1">2010</option>
+            <option value="opcao2">2011</option>
+            <option value="opcao3">2012</option>
+            <option value="opcao4">2013</option>
+        </select>
+        <br>
+        <br><input type="submit" value="enviar"><br>
+
+    <h3 style="background-color:rosybrown;color: white;">TERCEIRO FORMULÁRIO</h3>
+    </form>
+    <b style="color:red;">FORMULÁRIO DE PRÉ-MATRÍCULA!</b><br>
+    <br>
+    <b style="color: blueviolet;">DADOS PESSOAIS:</b><br>
+    <b>NOME DO ALUNO:</b>
+    <input type="text" name="NOME"><br>
+    <b>DATA DE NASCIMENTO:</b>
+    <input type="date" name="date"><br>
+    <b>NOME DA MÃE:</b>
+    <input type="text" name="NOME DA MAE"><br>
+    <b>NOME DO PAI:</b>
+    <input type="text" name="NOME DO PAI"><br>
+    <b>CONTATO:</b>
+    <input type="text" id="ddd" name="ddd" maxlength="2" placeholder="(DDD)" required>
+    <input type="text" id="telefone" name="telefone" maxlength="2" placeholder="TELEFONE (0000-0000)" required>
+    <input type="text" id="ramal" name="ramal" maxlength="2" placeholder="RAMAL" required><br>
+    <b>E-MAIL:</b>
+    <input type="email" name="email" placeholder="exemplo@gmail.com"><br>
+    <br>
+    <b style="color: blueviolet;">INFORMAÇÕES DE MATRÍCULA</b><br>
+    <b>SÉRIE</b>
+        <select id="escolha" name="opcao">
+            <option value="opcao1">Fundamental 1</option>
+            <option value="opcao2">Fundamental 2</option>
+            <option value="opcao3">Ensino Médio</option><br>
+        </select>
+
+        <br><b>TURNO:</b><br>
+        <input type="radio" name="turno" value="matutino">MATUTINO<br>
+        <input type="radio" name="turno" value="vespertino">VESPERTINO<br>
+        <input type="radio" name="turno" value="noturno">NOTURNO<br>
+        <b>ATIVIDADES EXTRACURRICULARES:</b><br>
+        <input type="checkbox" name="Informatica">INFORMÁTICA<br>
+        <input type="checkbox" name="musica">MÚSICA<br>
+        <input type="checkbox" name="balet">BALET<br>
+        <input type="checkbox" name="pintura">PINTURA<br>
+        <input type="checkbox" name="judo">JUDÔ<br>
+        <input type="checkbox" name="futebol">FUTEBOL<br>
+        <br><input type="submit" value="Enviar Formuário">
+        <input type="submit" value="Limpar Campos"><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+    
+
+    
+    </form>
+
+
+
+
+</body>
+</html>
